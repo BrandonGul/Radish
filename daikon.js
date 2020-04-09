@@ -7,7 +7,7 @@ exports.loadDirectory = function(filePath) {
     files
     .filter(function(file) {
       return file.substr(-5) === '.html';
-    });
+    })
     .forEach(function(file) {
       fs.readFile(filePath + '/' + file, function(err, data) { dict[file] = data.toString()});
     });
