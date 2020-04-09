@@ -2,7 +2,7 @@ const fs = require('fs')
 
 var dict = {};
 
-exports.loadDirctory = function(filePath) {
+exports.loadDirectory = function(filePath) {
   fs.readdir(filePath, function(err, files) {
     files
     .filter(function(file) {
