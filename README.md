@@ -53,7 +53,7 @@ daikon.format('FILE', [ARRAY OF OBJECTS])
 * Returns a formatted string of the original html file
 
 ## Install
-`git clone https://github.com/BrandonGul/Radish.git`
+`git clone https://github.com/BrandonGul/radish.git`
 
 ## License
 MIT
