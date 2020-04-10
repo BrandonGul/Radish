@@ -19,9 +19,13 @@ exports.format = function (fileName, array, callback) {
     var str = dict[fileName];
     for (var i = 0; i < array.length; i++) {
       for (var key in array[i]) {
-        str = str.replace(key, array[i][key]);
+        str = str.replace(key, '^!' + array[i][key] + '!^');
       }
     }
     return str;
   }
+}
+
+exports.display = function(filename) {
+  return dict[filename];
 }

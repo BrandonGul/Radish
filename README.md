@@ -6,8 +6,8 @@ Radish requires a directory of HTML files to work.
 Start by making a directory structure like this
 
 ```
-- example-html-dir
-  \ HTML files
+html-dir
+├── HTML files
 ```
 
 ## Usage
