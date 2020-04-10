@@ -45,12 +45,17 @@ daikon.format('example.html', [{'key-name': 'Hello, world!'}]);
 
 ## Functions
 ```JavaScript
-daikon.format('FILE', [ARRAY OF OBJECTS])
+daikon.format('FILE', [ARRAY OF OBJECTS]);
 ```
 * Takes the name of the file you want formatted
 * Takes an array of objects
 
 * Returns a formatted string of the original html file
+
+```JavaScript
+daikon.display('FILE-NAME');
+```
+* Returns the specified file in string form
 
 ## Install
 `git clone https://github.com/BrandonGul/radish.git`
