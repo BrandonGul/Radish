@@ -1,4 +1,4 @@
-# Radish
+# Daikon
 A simple HTML formatter using JavsScript
 
 ## Prerequisites
